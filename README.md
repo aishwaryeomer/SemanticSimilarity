@@ -1,4 +1,4 @@
-# Semantic Similarity of Sentences
+# Calculate semantic similarity of sentences using dependency parsing
 Finding semantic similarity has been a work in development in the domain of Natural Language Processing. The range of applications range from search to text summarization to conversational AI. But there has not been a clear winner-model on all the aforementioned domains. The purpose of this text is to summarize the methods used for the problem at hand and build an intuition for model selection for the reader. 
 The differentiating factor:
 The semantic similarity between 2 words can easily be established using word embedding. Similarly large pieces of text are relatively easy to work with as the offer a lot of room for meaningful feature engineering. So for this essay, we are focusing on sentences. Pairs of sentences, assumedly written by different authors, are particularly hard as they:
